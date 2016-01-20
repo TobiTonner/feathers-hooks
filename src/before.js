@@ -42,7 +42,7 @@ export default function(service) {
 
           _super(... args);
         });
-      });
+      }).done();
     };
   });
 
